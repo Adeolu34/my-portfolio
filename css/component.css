@@ -519,6 +519,9 @@ input{
         margin: auto;
         
     }
+    .logo{
+        padding-bottom: 3rem;
+    }
     .logo img{
         margin: 6rem 0;
     }
