@@ -288,13 +288,14 @@ input{
    flex-wrap: wrap;
    justify-content: center;
    align-items: center;
+   text-align: center;
 }
 .porfolio-content .img1{
-    width: 80%;
+    width: 100%;
     transition: 2s ease;
 }
 .porfolio-content .img2{
-    width: 80%;
+    width: 100%;
     transition: 2s ease;
     justify-content: center;
     align-items: center;
@@ -434,9 +435,15 @@ input{
     width: 100%;
     justify-content: center;
     align-items: center;
+    display: flex;
+    text-align: center;
+
 }
 .porfolio-content .img1{
     transition: 2s ease;
+    width: 500px;
+    justify-content: center;
+    align-self: center;
     
 }
 .porfolio-content .img1:hover{
@@ -467,6 +474,9 @@ input{
     font-size: 1.8rem;
     line-height: 1.5;
    }
+    .title{
+        font-size: 3rem;
+    }
    .row{
     display: flex;
     flex-direction:column;
