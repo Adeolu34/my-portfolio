@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+    font-family:  'Robot', 'Open Sans', sans-serif;
+}
+:root{
+    --limegreen: #32CD32;
+    --neongreen: #39FF14;
+}
+::selection{
+    background: var(--limegreen);
+    color: #333;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+html::-webkit-scrollbar-track{
+    background: #222;
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--limegreen);
+}
+
+
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    padding: .7rem 3rem;
+    background: #333;
+    color: #E5F6DF;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.btn i{
+    padding: 0 .5rem;
+    font-size: 1.8rem;
+}
+.btn:hover{
+    background-color: var(--limegreen);
+}
