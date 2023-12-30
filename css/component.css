@@ -275,14 +275,14 @@ input{
 }
 .portfolio-wrapper{
     display: flex;
-    /* gap: 2rem; */
-    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     
 }
 .porfolio-content{
-   width: 50vw;
+    width: calc(50% - 1rem);
+    margin: 0.5rem;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
@@ -313,6 +313,23 @@ input{
     font-size: 2rem;
     color: #d8ebda;
     flex-wrap: wrap;
+}
+.porfolio-content.hidden {
+    display: none;
+}
+#viewMoreBtn {
+    background-color: var(--limegreen);
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#viewMoreBtn:hover {
+    background-color: #2E8B57;
 }
 .thank-you{
     justify-content: center;
